@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title>puli test</title>
+    <link rel="stylesheet" href="/static/css/ui-lightness/jquery-ui-1.8.19.custom.css" type="text/css"/>
+    <script src="/static/js/jquery-1.7.2.min.js" ></script>
+    <script src="/static/js/jquery-ui-1.8.19.custom.min.js" ></script>
+
+    <script src="/static/js/raphael-min.js" ></script>
+    <script src="/static/js/g.raphael-min.js" ></script>
+    <script src="/static/js/g.line-min.js" ></script>
+    {% block head %}{%  endblock head %}
+</head>
+<body>
+    <p>Header</p>
+    <hr/>
+
+    {% block content %}
+        <p>base.html CONTENT</p>
+    {%  endblock content %}
+
+    <hr/>
+    <p>footer</p>
+</body>
+</html>

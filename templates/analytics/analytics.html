@@ -1,0 +1,28 @@
+{%  extends 'base.html' %}
+
+{% block head %}
+    <script type="text/javascript">
+        $(function(){
+            $('#id_date_from').datepicker()
+            $('#id_date_to').datepicker()
+        })
+    </script>
+
+    <script src="/static/js/analytics.js" ></script>
+
+{% endblock head %}
+
+{%  block content %}
+    <p>analytics</p>
+
+    <form>
+        <table>
+        {{ form.as_table }}
+        </table>
+        <button>ok</button>
+    </form>
+
+    <p>{{ data }}</p>
+    <div id="chart"></div>
+
+{%  endblock content %}
