@@ -1,6 +1,6 @@
 We have Event objects in our system.
 
-Every event ha a status, this can be:
+Every event has a status, this can be:
 
 - 'Assigned'
 - 'Sent to staffing agency'
